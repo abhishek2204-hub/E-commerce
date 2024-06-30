@@ -140,8 +140,9 @@ def profile(request):
     for j in statuses:
         print(j.update_desc)
 
-   
+    
     context ={"items":items,"status":statuses}
     # print(currentuser)
+    #print(currentuser)
     return render(request,"profile.html",context)
     
